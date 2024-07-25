@@ -585,7 +585,7 @@ body {
 @media (min-width: 768px) {
   .hero {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: left;
   }
 
@@ -2406,7 +2406,7 @@ width: auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   position: relative;
-  text-align: justify;
+  text-align: left;
   font-size: larger;
 }
 
